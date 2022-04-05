@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Hello App</string>
     <string name="hello_message">Hello!</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="submit">Submit</string>
+    <string name="view_offers">View Offers</string>
 </resources>
