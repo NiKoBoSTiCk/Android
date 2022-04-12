@@ -5,7 +5,7 @@ import kotlinx.coroutines.delay
 class UserRepository {
     suspend fun getUsers(): List<User> {
         delay(8000)
-        val users: List<User> = listOf(
+        return listOf(
             User(1, "Sam1"),
             User(2, "Sam2"),
             User(3, "Sam3"),
@@ -18,7 +18,5 @@ class UserRepository {
             User(10, "Sam10"),
             User(11, "Sam11")
         )
-        return users
     }
-
 }
